@@ -1,0 +1,28 @@
+{
+  "name": "glowroot-node-agent",
+  "readme": "README.md",
+  "version": "0.0.1",
+  "author": "varunchauhan49@gmail.com",
+  "description": "Glowroot Node agent",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "continuation-local-storage": "3.1.4",
+    "winston": "1.1.1",
+    "node-uuid": "1.4.3",
+    "superagent": "1.4.0",
+    "shimmer": "1.1.0",
+    "async": "^2.1.5",
+    "google-protobuf": "^3.2.0",
+    "grpc": "^1.1.2",
+    "hdr-histogram-js": "^1.0.0-beta.3",
+    "long": "^3.2.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:varunchauhan49/glowroot-node-agent.git"
+  }
+}

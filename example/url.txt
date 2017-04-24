@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ab -n 50 -c 20 http://localhost:8000/api/search/test1 &
+ab -n 40 -c 5 http://localhost:8000/api/search/test2 &
+ab -n 20 -c 15 http://localhost:8000/api/search/test3 &
+ab -n 40 -c 20 http://localhost:8000/api/search/test4 &
+ab -n 10 -c 10 http://localhost:8000/api/search/test5 &
+ab -n 80 -c 6 http://localhost:8000/api/search/test6 &
+ab -n 10 -c 10 http://localhost:8000/fetch &
+ab -n 10 -c 10 http://localhost:8000/api/get/getpool &
+ab -n 10 -c 10 http://localhost:8000/api/get/pool

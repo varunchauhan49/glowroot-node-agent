@@ -1,4 +1,4 @@
-require('myntnodeagent');
+require('glowroot-node-agent');
 
 
 var express = require('express');

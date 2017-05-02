@@ -1,7 +1,7 @@
 {
   "name": "glowroot-node-agent",
   "readme": "README.md",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "varunchauhan49@gmail.com",
   "description": "Glowroot Node agent",
   "engines": {

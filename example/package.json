@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.15.2",
     "hapi": "^16.1.0",
-    "glowroot-node-agent": "0.0.1",
+    "glowroot-node-agent": "0.0.3",
     "mysql": "^2.13.0",
     "underscore": "^1.8.3"
   }
